@@ -1,0 +1,82 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 4rem;
+  color:#F9FBE7;
+  padding:20px;
+}
+
+body{
+  background-color: #4C4C6D;
+}
+
+nav{
+display: flex;
+gap:10px;
+justify-content: center;
+align-items: center;
+}
+.NavLinks{
+color:#C4DFDF;
+}
+
+.block-contents{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width:1300px;
+  height:700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.block-contents::-webkit-scrollbar {
+  display: none;
+}
+
+.block-blocks{
+  background-color: #E57C23;
+  width:200px;
+  border-radius: 5px;
+  max-width: 500px;
+  height:100px;
+  max-height: 500px;
+  text-align: center;
+  padding:20px;
+ color:#E3F4F4;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.block-blocks:hover{
+  background-color: #A459D1;
+  border: 2px solid #F5F0BB;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+@media (hover: hover) {
+ 
+}
+
+@media (min-width: 1024px) {
+ 
+}
